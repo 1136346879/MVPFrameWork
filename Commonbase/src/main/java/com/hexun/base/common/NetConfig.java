@@ -19,6 +19,7 @@ import okhttp3.OkHttpClient;
 
 /**
  * Created by hexun on 2017/10/11.
+ * 网络配置
  */
 
 public class NetConfig {
