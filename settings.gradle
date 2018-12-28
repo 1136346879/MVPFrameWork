@@ -1,0 +1,1 @@
+include ':app', ':Commonbase', ':CommonRes', ':Extend', ':SubModule', ':news', ':discovery', ':market', ':selfselection', ':my'

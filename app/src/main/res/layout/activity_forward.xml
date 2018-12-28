@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/act_background"
+    android:orientation="vertical">
+
+    <Button
+        android:textColor="@color/text_black_white"
+        android:id="@+id/forward"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="进入组件" />
+
+    <Button
+        android:textColor="@color/text_black_white"
+        android:id="@+id/forward_second"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="进入组件2" />
+
+    <Button
+        android:textColor="@color/text_black_white"
+        android:id="@+id/forward_third"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="SubActivity" />
+
+    <Button
+        android:textColor="@color/text_black_white"
+        android:id="@+id/night"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="日夜间切换" />
+
+    <Button
+        android:textColor="@color/text_black_white"
+        android:id="@+id/forward_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="进入主页" />
+
+    <ImageView
+        android:background="@mipmap/favor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
